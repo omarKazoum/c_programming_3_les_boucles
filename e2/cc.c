@@ -22,8 +22,6 @@ prints the array given
 */
 void printArr(int ar[],int length);
 int main(){
-    int ar[]={1,2,3,4};
-    printArr(ar,4);
     int nbrLigne;
     printf("Bonjour ce program vous aide a construire un pyramide d'etoile \nsvp entrez la hauteur du pyramide a contruire pour vous\n");
     scanf("%d",&nbrLigne);
@@ -45,7 +43,7 @@ int main(){
             //starsCount is the number of stars to draw in this line
             for(int col=0;col<maxNbrOfCols;col++){
                 int distanceFromMiddle=middle-col;
-               int distance=distanceFromMiddle<0?-1*distanceFromMiddle:distanceFromMiddle;
+               distanceFromMiddle=distanceFromMiddle<0?-1*distanceFromMiddle:distanceFromMiddle;
                     if(distanceFromMiddle<=halfSize)
                         printf("*");
                         else printf(" ");
