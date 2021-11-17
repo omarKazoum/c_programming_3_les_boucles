@@ -3,12 +3,11 @@
 #include<math.h>
 #include<stdbool.h>
 /*
-Écrire un programme C permettant de lire la valeur de la température de l'eau et d'afficher son état :
-
-Glace si la température est inférieure à 0, t≤ 0.
-Eau si la température est strictement supérieure à 0 et <100, 0 < t ≤ 100.
-Vapeur si la température est strictement supérieure à 100, 100 < t.
+    Challenge 2: pyramide d'étoile
+Ecrire le programme pour avoir un pyramide d'étoile, le nombre des lignes à composer est demandé à l’utilisateur.
+(chaque ligne doit avoir un nombre premier d'étoiles
 */
+
 /**
  gives the next positif prime number
 */
@@ -82,7 +81,6 @@ void printArr(int ar[],int length){
 }
 
 /*
-
 halfSize=prime/2    ex 3/2 = 1
 middle=maxCols/2;
 distanceFromMiddle=middle-col;
@@ -90,13 +88,4 @@ distance=distanceFromMiddle<0?-distanceFromMiddle:distanceFromMiddle;
 if(distanceFromMiddle<=halfSize)
     printf("*")
     else printf(" ");
-
-
-
-
-
-
-
-
-
 */
