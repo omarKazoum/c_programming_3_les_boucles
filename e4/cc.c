@@ -13,7 +13,7 @@ void printArr(int ar[],int length);
 
 int main(){
     // take a 100 integers from the user
-    int nbrs[10];
+    int nbrs[100];
     int nbrEntree=-1,nbrEntreeCount=0;
     bool error=false;
     int valideNbr=0;
